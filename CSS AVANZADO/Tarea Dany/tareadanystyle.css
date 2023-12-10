@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+html, body {
+    height: 100%;
+    color:black;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LeftContainer {
+    position: sticky;
+    margin-right: 70px;
+    margin-left: 60px;
+}
+
+h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    size: 36px;;
+}
+
+.FormContainer {
+    border: 1px solid #FFFFFF;
+    width: 567px;
+    height: 734px;
+    top: 144px;
+    left: 153px;
+    opacity: 70%;
+    background: #FFFFFF;
+    box-shadow: -20px -20px 60px rgba(94, 94, 94, 0.15), 20px 20px 60px rgba(94, 94, 94, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Googlebutton {
+    width: 205px;
+    height: 70px;
+    top: 296px;
+    left: 216px;
+    border-radius: 12px;
+    border: 1px;
+    font-size: 22px;
+    line-height: 26.82px;
+    border: 1px solid rgba(29, 29, 29, 1);
+    background: url('Imagenes dany/Google-logo.png') 10px center no-repeat;
+    padding-left: 50px;
+    background-size: 40px 40px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 55px;
+    top:120px
+}
+
+.Applebutton {
+    width: 205px;
+    height: 70px;
+    top: 296px;
+    left: 216px;
+    border-radius: 12px;
+    border: 1px;
+    font-size: 22px;
+    line-height: 26.82px;
+    border: 1px solid rgba(29, 29, 29, 1);
+    background: url('Imagenes dany/Apple-logo.png') 10px center no-repeat;
+    padding-left: 50px;
+    background-size: 40px 40px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 300px;
+    top: 120px
+}
+
+.or {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+font-size: 25px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(29, 29, 29, 1);
+}
+
+#Email {
+    position: absolute;
+    left: 55px;
+    top:280px
+}
+
+#Password {
+    position: absolute;
+    left: 55px;
+    top:410px
+}
+
+.FormInput {
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30.48px;
+    color: rgba(102,103,176,1);
+    width: 452px;
+    height: 67px;
+    top: 458px;
+    left: 216px;
+    border-radius: 12px;
+    border: 1px solid rgba(29, 29, 29, 1);
+}
+
+.LoginButton {
+    width: 452px;
+    height: 67px;
+    top: 697px;
+    left: 216px;
+    border-radius: 12px;
+    border-color: rgba(107, 67, 255, 1);
+    background: rgba(107, 67, 255, 1);
+    color: rgba(244, 241, 255, 1);
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#Already {
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: rgba(107, 67, 255, 1);
+    position: absolute;
+    left: 240px;
+    top:650px
+}
+
+.RightContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(180, 146, 253, 0.3) 0%, rgba(173, 78, 245, 0.9543) 100%);
+    width: 587px;
+    height: 1032px;
+    left: 853px;
+}
